@@ -1,0 +1,18 @@
+/* chat styles here */
+
+#chat-container
+{
+	position: absolute;
+	bottom: 0;
+	height: 0px;
+	background: #19ebee;
+	width:99%;
+}
+.chat-box{
+	height: 380px;
+	width: 300px;
+	float: right !important;
+	margin-top: -380px;
+	background: #f5f5f5;
+	border:1px solid #ccc;
+}
