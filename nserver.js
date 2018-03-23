@@ -6,7 +6,7 @@ var port = process.env.PORT || 3000;
 var sid = new Array();
 
 app.get('./app/routes', function(req, res){
-  res.sendFile(__dirname + '/index.html');
+  res.sendFile('index.html');
 });
 
 io.on('connection', function(socket){
