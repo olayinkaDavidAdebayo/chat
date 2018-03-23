@@ -5,7 +5,7 @@ var io = require('socket.io')(http);
 var port = process.env.PORT || 3000;
 var sid = new Array();
 
-app.get('/', function(req, res){
+app.get('./app/routes', function(req, res){
   res.sendFile(__dirname + '/index.html');
 });
 
